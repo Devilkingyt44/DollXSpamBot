@@ -10,11 +10,11 @@ DOLL_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9
 
 Button = [
         [
-        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/Dollx_spambot"),
-        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/DollxSpam_BOT")
+        Button.url("Cʜᴀɴɴᴇʟ", "https://t.me/RajputChannels"),
+        Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/RajputChat")
         ],
         [
-        Button.url("• Rᴇᴘᴏ •", "https://github.com/dominator454/DollXSpamBot")
+        Button.url("• Rᴇᴘᴏ •", "https://github.com/Devilkingyt44/DollXSpamBot")
         ]
         ]
         
@@ -38,12 +38,12 @@ async def start(e):
         user_id = e.sender_id
         mention = f"[{name}](tg://user?id={user_id})"
         myOwner = f"[{OWNER_NAME}](tg://user?id={OWNER_ID})"
-        creator = f"[⏤‌❥‌ 🖤𖣔ꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋꠋ¤‌๋‌ࣧࣧࣧࣧࣧࣧࣧࣧࣧࣧ𖣔ꠋꠋ𑲭𑲭𑲭🦋⃟≛⃝🖤҉𓆩⍣⃟N1x乛DÕLL𓆪‌⍣⃟❤︎𓆪‌⍣⃟𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭𑲭](https://t.me/N1xDOLL)"
+        creator = f"[𓆩 𝙔𝘼𝙎𝙃 • 𝙓𝘿 𓆪](https://t.me/Rajput_GT)"
         DOLL_ON = f"""
 ʜᴇʏ {mention},
-ᴛʜɪs ɪs ᴅᴏʟʟXsᴘᴀᴍʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
+ᴛʜɪs ɪs ʀᴀᴊᴘᴜᴛ x ꜱᴘᴀᴍ ʙᴏᴛ ᴘᴏᴡᴇʀᴇᴅ ʙʏ:- {creator}!
 
-ᴛʜɪs ʙᴏᴛ ɪs ꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂
+ᴛʜɪs ʙᴏᴛ ɪs ꧁🇮🇳 😈 𝐉𝐀𝐘 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌 😈 🇮🇳꧂
 
 ᴛʜɪs ʙᴏᴛ ᴏᴡɴᴇʀ:- {myOwner}
 
