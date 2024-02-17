@@ -18,14 +18,14 @@ from datetime import datetime
 DOLL_PIC = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/f8d63b1dc5676fc9988f1.jpg"
 
 
-DOLL = "✯ 𝘿𝙤𝙡𝙡 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀 ✯\n\n"
-DOLL += f"**꧁🇮🇳 🎀  𝑀𝒶𝒹𝑒 𝐼𝓃 𝐼𝓃𝒹𝒾𝒶  🎀 🇮🇳꧂**\n"
+DOLL = "✯ 𝙍𝙖𝙟𝙥𝙪𝙩 ✘ 𝙎𝙥𝙖𝙢 𝙃𝙀𝙍𝙀 ✯\n\n"
+DOLL += f"**꧁🇮🇳 😈 𝐉𝐀𝐘 𝐒𝐇𝐑𝐄𝐄 𝐑𝐀𝐌 😈 🇮🇳꧂**\n"
 DOLL += f"━───────╯•╰───────━\n"
 DOLL += f"• **𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `3.10.1`\n"
 DOLL += f"• **𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽** : `{version.__version__}`\n"
 DOLL += f"• **𝙳𝙾𝙻𝙻 𝚇 𝚂𝙿𝙰𝙼 𝙱𝙾𝚃 𝚅𝙴𝚁𝚂𝙸𝙾𝙽**  : `{deadlyversion}`\n"
-DOLL += f"• **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/DollxSpam_BOT)\n"
-DOLL += f"• **Source Code** : [•Repo•](https://github.com/DOMINATOR-XD/DollXSpamBot)\n"
+DOLL += f"• **ᴄʜᴀɴɴᴇʟ** : [Join.](https://t.me/RajputChannels)\n"
+DOLL += f"• **Source Code** : [•Repo•](https://github.com/Devilkingyt44/DollXSpamBot)\n"
 DOLL += f"━───────╮•╭───────━\n\n"   
                                   
 @BOT0.on(events.NewMessage(incoming=True, pattern=r"\%sdoll(?: |$)(.*)" % hl))
@@ -36,11 +36,11 @@ async def alive(event):
                                   caption=DOLL,
                                   buttons=[
         [
-        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/Dollx_spambot"),
-        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/DollxSpam_BOT")
+        Button.url("☺️ᴄʜᴀɴɴᴇʟ☺️", "https://t.me/RajputChannels"),
+        Button.url("🇮🇳sᴜᴘᴘᴏʀᴛ🇮🇳", "https://t.me/RajputChat")
         ],
         [
-        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/DOMINATOR-XD/DollXSpamBot")
+        Button.url("• 🙂ʀᴇᴘᴏ🙂 •", "https://github.com/Devilkingyt44/DollXSpamBot")
         ]
         ]
         )
